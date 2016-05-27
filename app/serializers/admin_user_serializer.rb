@@ -8,7 +8,8 @@ class AdminUserSerializer < AdminUserListSerializer
              :can_activate,
              :can_deactivate,
              :ip_address,
-             :registration_ip_address
+             :registration_ip_address,
+             :custom_fields
 
   has_one :single_sign_on_record, serializer: SingleSignOnRecordSerializer, embed: :objects
 
