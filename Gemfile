@@ -67,6 +67,7 @@ gem 'excon', require: false
 gem 'unf', require: false
 
 gem 'email_reply_trimmer', '0.1.6'
+gem 'mailcatcher'
 
 # TODO Use official image_optim gem once https://github.com/toy/image_optim/pull/149
 # is merged.
