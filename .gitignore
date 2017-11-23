@@ -126,3 +126,6 @@ vendor/bundle/*
 # ignore nodejs files
 /node_modules
 /package-lock.json
+
+# Ignore Salt file.replace state module backups created in-place.
+*.bak
