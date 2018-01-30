@@ -968,6 +968,7 @@ function parseTag(tag, props) {
         }
     }
 
+    /*
     if (classes) {
         if (props.className) {
             classes.push(props.className);
@@ -975,6 +976,7 @@ function parseTag(tag, props) {
 
         props.className = classes.join(' ');
     }
+    */
 
     return props.namespace ? tagName : tagName.toUpperCase();
 }
