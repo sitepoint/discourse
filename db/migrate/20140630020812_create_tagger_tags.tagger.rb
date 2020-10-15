@@ -1,5 +1,5 @@
 # This migration comes from tagger (originally 20140312105850)
-class CreateTaggerTags < ActiveRecord::Migration
+class CreateTaggerTags < ActiveRecord::Migration[4.2]
   def up
     create_table :tagger_tags do |t|
       t.string :title
